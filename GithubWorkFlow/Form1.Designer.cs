@@ -46,6 +46,9 @@
 			// 
 			// textBox1
 			// 
+			this.textBox1.BackColor = System.Drawing.Color.Tomato;
+			this.textBox1.Font = new System.Drawing.Font("宋体", 15F);
+			this.textBox1.ForeColor = System.Drawing.SystemColors.Window;
 			this.textBox1.Location = new System.Drawing.Point(21, 95);
 			this.textBox1.Multiline = true;
 			this.textBox1.Name = "textBox1";
