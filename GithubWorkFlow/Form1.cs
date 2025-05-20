@@ -20,10 +20,12 @@ namespace GithubWorkFlow
 		private void button1_Click(object sender, EventArgs e)
 		{
 			MessageBox.Show("Say Hello");
+
+			MessageBox.Show("Say Hello");
+			MessageBox.Show("Say Hello1");
+			MessageBox.Show("Say Hello2");
 			//增加注释
 			MessageBox.Show("++++++++++++++++++++++++++++++");
-			//增加注释
-			MessageBox.Show("1111111111111111111111111111");
 		}
 
 		private void Form1_Load(object sender, EventArgs e)
