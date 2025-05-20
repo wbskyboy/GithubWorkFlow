@@ -54,7 +54,7 @@
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(767, 102);
 			this.textBox1.TabIndex = 1;
-			this.textBox1.Text = "添加文本输出功能到App中，支持显示文本。";
+			this.textBox1.Text = "添加文本输出功能到App中，支持显示文本。\r\n1.增加ReleaseV1.1 bug 修复\r\n";
 			// 
 			// Form1
 			// 
@@ -66,6 +66,7 @@
 			this.Controls.Add(this.button1);
 			this.Name = "Form1";
 			this.Text = "Form1";
+			this.Load += new System.EventHandler(this.Form1_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
