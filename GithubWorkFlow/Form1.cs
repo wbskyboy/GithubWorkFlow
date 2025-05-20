@@ -22,6 +22,8 @@ namespace GithubWorkFlow
 			//增加注释
 			MessageBox.Show("++++++++++++++++++++++++++++++");
 			MessageBox.Show("Say Hello");
+			MessageBox.Show("Say Hello1");
+			MessageBox.Show("Say Hello2");
 		}
 
 		private void Form1_Load(object sender, EventArgs e)
